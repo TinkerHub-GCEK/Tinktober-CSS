@@ -1,11 +1,14 @@
-:construction:
-
 # css-components contribution guidelines😬
+Lets follow some :construction: tips to contribure to this repo!
 
-After cloning this repo open the project folder in a _text-editor_(vs code is preferable). If you don't have vs-code in your machine, [install it](https://code.visualstudio.com/download)
+1. Fork this repository to your profile. Clone the repo to view in your machine.
+2. After cloning this repo, open the project folder in any _text-editor_. Here are few popular editors we wish you try : [Atom](https://atom.io/ ), [Sublime Text](https://www.sublimetext.com/), [vs-code](https://code.visualstudio.com/)
+3. Keep up the folder structure.
+4. Make your changes and commit to your repo.
+5. Push to github to let the world know your work!
+6. Submit your changes for review by creating a pull request to [TinkerHub-GCEK/Tinktober-CSS](https://github.com/TinkerHub-GCEK/Tinktober-CSS/pulls).
 
 ## Folder Structure
-
 ```
 ├───css
 │   └───assets
@@ -15,7 +18,6 @@ After cloning this repo open the project folder in a _text-editor_(vs code is pr
 └───pages
 
 ```
-
 The **css** folder contains all the files for adding your `css` and the **pages** folder contains the `html` files for adding html code.
 
 ## Make necessary changes and commit those changes
@@ -28,16 +30,16 @@ Make changes based on what component you are adding. for example If you have a b
   <div class="col-lg-6">
     <div class="component">
       <div class="card magictime">
-        
+
         <!-- Here Philip is the css selector for changing card color, write your name in the place of philip-->
-        
+
         <div class="card-title philip">
           <strong>Button</strong>
         </div>
         <div class="card-content">
-         
+
           <!-- Add your html code for your component inside this. -->
-        
+
         </div>
       </div>
     </div>
@@ -45,9 +47,9 @@ Make changes based on what component you are adding. for example If you have a b
   <div class="col-lg-6">
     <div class="component">
       <div class="card magictime">
-        
+
         <!-- Here Philip is the css selector for changing card color-->
-        
+
         <div class="card-title philip">
           <strong>Creator</strong>
         </div>
@@ -56,9 +58,9 @@ Make changes based on what component you are adding. for example If you have a b
             <h2>
               <b>Name:</b
               ><span>
-                
+
               <!-- Add your name and github profile link.  -->
-              
+
               <a href="profile link">your name </a>
               </span>
             </h2>
@@ -81,16 +83,14 @@ You can change your card color by adding your name as a `selector`(in the above 
 }
 ```
 
-## commit these changes
+## commit your changes
 
-If you go to the project directory and execute the command git status, you'll see there are changes.
-Add those changes to the branch you just created using the `git add` command:
-
+Go to the project directory and execute the command git status to view changed files. Add those changes to repo using the following command
 ```
-git add .
+git add *
 ```
 
-Now commit those changes using the `git commit` command:
+Lets commit those changes
 
 ```
 git commit -m "Added new <Your component name>"
@@ -101,25 +101,13 @@ git commit -m "Added new <Your component name>"
 Push your changes using the command `git push`:
 
 ```
-git push origin <add-your-branch-name>
+git push
 ```
-
-replacing `<add-your-branch-name>` with the name of the branch you created earlier.
 
 ## Submit your changes for review
 
-If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
-Now submit the pull request.
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+Go to your repository on GitHub, and click the button `New Pull request` under `Pull request`. View your changes the submit your request to merge with [TinkerHub-GCEK/Tinktober-CSS](https://github.com/TinkerHub-GCEK/Tinktober-CSS).
 
-<img style="float: right;" src="https://github.com/rubenshibu/css-components/blob/contributors/images/Create_pull_request.jpg" alt="create a pull request" />
+Soon We will be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged. Lookout for discussions tab if we want more changes from your end.
 
-Now submit the pull request.
-
-<img style="float: right;" src="https://github.com/rubenshibu/css-components/blob/contributors/images/Submit_PR.jpeg" alt="submit pull request" />
-
-
-## Where to go from here?
-
-Congrats!!🥳  
-You just completed the standard fork -> clone -> edit -> pull request workflow that you'll encounter often as a contributor!
+### 🥳 Vola! 🥳 You just made a contribution to open source!
