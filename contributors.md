@@ -1,4 +1,4 @@
-# css-components contribution guidelines😬
+# Tinktober CSS contribution guidelines😬
 Lets follow some :construction: tips to contribure to this repo!
 
 1. Fork this repository to your profile. Clone the repo to view in your machine.
