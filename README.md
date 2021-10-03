@@ -1,5 +1,5 @@
 # Tinktober CSS
-Learn and celebrate your skills with css-components for this [Hacktoberfest2021](https://hacktoberfest.digitalocean.com/)
+Learn and celebrate your skills with Tinktober CSS for this [Hacktoberfest2021](https://hacktoberfest.digitalocean.com/)
 
 The Purpose of this repo is to let beginners get familiarised with git, github and the concept of commits and pull requests (via the incentive of hacktoberfest). Learn how CSS combines with HTML in website, and get quick code snippets to build your special sites!
 
