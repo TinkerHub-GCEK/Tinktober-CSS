@@ -1,21 +1,22 @@
 /* Add your Button component css to this file */
 .button {
-    margin: 20px;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 2rem;
-    font-weight: 600;
-    padding: 0.75em 1em;
-    transition: none;
-    position: relative;
-    background-color: #6af171;
-    color: #fff;
-    /* box-shadow: 0 4px #f3002e; */
-    text-decoration: none;
-  }
-  .utsav{
-      background-color:aqua;
-  }
+  margin: 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 2rem;
+  font-weight: 600;
+  padding: 0.75em 1em;
+  transition: none;
+  position: relative;
+  background-color: #6af171;
+  color: #fff;
+  /* box-shadow: 0 4px #f3002e; */
+  text-decoration: none;
+}
+
+.utsav {
+  background-color: aqua;
+}
 
 html {
   font-size: 20px;
@@ -30,27 +31,99 @@ body {
 }
 
 .button_slide {
-  
-    margin-left:35px;  
-    position: relative;
-    background-color: #eda8e3;
-    text-decoration: none;
-    
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(216, 2, 134);
-    border-radius: 0px;
-    padding: 0.75em 1em;
-    display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 14px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #D80286;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-  }
-  
+
+  margin-left: 35px;
+  position: relative;
+  background-color: #eda8e3;
+  text-decoration: none;
+
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 0.75em 1em;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
 .slide_right:hover {
-    box-shadow: inset 400px 0 0 0 #D80286;
-  }
+  box-shadow: inset 400px 0 0 0 #D80286;
+}
+
+.somesh {
+  background-color: #6aa0f1;
+}
+
+.somesh-glow-button {
+  text-decoration: none;
+  color: #fff;
+  background: rgb(15, 45, 143);
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.somesh-glow-button:hover {
+  color: rgb(45, 45, 224);
+  background-color: rgb(212, 209, 209);
+  box-shadow: 0 20px 35px rgba(12, 24, 199, 0.6);
+}
+
+#somesh-button-2 {
+  background: #222;
+  height: 50px;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 27px;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+  margin-top: 50px;
+}
+
+#somesh-button-2 #somesh-circle-button-2 {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.somesh-span-button-2 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#somesh-button-2:hover {
+  background: transparent;
+}
+
+#somesh-button-2:hover #somesh-circle-button-2 {
+  height: 50px;
+  width: 150px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
