@@ -1,1 +1,105 @@
 /* Add your css for navbar */
+/* Gaurav's CSS starts here  */
+.gaurav-navbar {
+  background-color: #362f35;
+}
+.gaurav-navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.gaurav-navbar ul {
+  list-style: none;
+}
+.gaurav-navbar ul img {
+  height: auto;
+}
+.gaurav-navbar a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.gaurav-navbar a:hover {
+  color: #cba065;
+  border-bottom: 1px solid #cba065;
+}
+
+.gaurav-navbar .icons i {
+  color: #fff;
+  padding: 0px 5px;
+  transition: all 0.5s;
+}
+
+.gaurav-navbar .icons i:hover {
+  font-size: 20px;
+  color: #cba065;
+}
+
+.gaurav-navbar .search input {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 0px 15px;
+}
+
+.gaurav-navbar .search i {
+  position: absolute;
+  margin-left: -26px;
+  margin-top: 4px;
+}
+
+.hide {
+    display: none!important;
+  }
+
+.show{
+    display: block!important;
+}
+@media screen and (max-width: 1100px) {
+  .gaurav-navbar a {
+    font-size: 16px;
+  }
+  .gaurav-navbar ul img {
+    width: 110px;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  ul.main-menu {
+    display: none;
+  }
+
+  .mobile-menu .hide{
+      display: block;
+  }
+
+  .gaurav-navbar ul {
+    justify-content: space-between;
+  }
+  li#barButton {
+    padding: 0px 25px;
+    color: #fff;
+    cursor: pointer;
+  }
+  ul#resMenu{
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      align-items: initial;
+      padding-bottom: 25px;
+  } 
+  
+}
+
+@media screen and (min-width: 800px){
+    ul.mobile-menu{
+        display: none;
+    }
+}
+
+/* CSS Ends here  */
