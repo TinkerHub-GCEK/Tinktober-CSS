@@ -1,1 +1,94 @@
-/* Add your css for forms */
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+.container-fluid{
+    background-color: gainsboro;
+    padding: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+h2{
+    text-align: center;
+    color: #424299;
+    margin-bottom: 30px;
+    font-family: 'Rampart One', cursive;
+    font-weight: bold;
+}
+
+.name_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ label {
+    font-size: 13px;
+    color: #424299;
+    font-weight: bold;
+    text-align: left;
+ }
+
+ .name_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+.name_fir, .name_mid, .name_las{
+    width: 300px;
+}
+
+.email_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.email{
+    margin-left: 41px;
+    margin-top: 30px;
+}
+
+input{
+    height: 40px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.email_inp{
+    margin-left: 41px;
+    width: 1061px;
+}
+
+.add_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+button{
+    width: 99px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    height: 40px;
+    color: #424299;
+    font-weight: bold;
+}
+
+button:hover{
+    transition: 2s;
+	color: white;
+	background-color: #424299;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
